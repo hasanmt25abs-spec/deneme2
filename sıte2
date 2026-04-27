@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habbuş Alpha Systems | هندسة تتبع الظل</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --black: #0a0a0a;
+            --gold: #d4af37; /* Altın Sarısı */
+            --beige: #f5f1ed; /* Açık Bej */
+            --dark-gold: #aa8a2e;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--black);
+            color: var(--beige);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3 {
+            color: var(--gold);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            padding: 25px 0;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--gold);
+            letter-spacing: 1px;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.2rem;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto 45px;
+            color: #b0b0b0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--gold);
+            color: var(--black);
+            padding: 20px 45px;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 4px;
+            transition: var(--transition);
+            font-size: 1.1rem;
+        }
+
+        .cta-button:hover {
+            background-color: var(--beige);
+            transform: scale(1.05);
+        }
+
+        /* Unique Mechanism Section */
+        .mechanism {
+            background-color: #111;
+            padding: 90px 0;
+            border-top: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 35px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.02);
+            padding: 45px;
+            border: 1px solid rgba(212, 175, 55, 0.15);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 20px;
+            font-size: 1.7rem;
+        }
+
+        /* Guarantee Section */
+        .guarantee {
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .guarantee-box {
+            border: 2px solid var(--gold);
+            padding: 60px;
+            max-width: 850px;
+            margin: 0 auto;
+            background: linear-gradient(to bottom, #151515, #0a0a0a);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 100px 0;
+            text-align: center;
+            background-color: var(--gold);
+            color: var(--black);
+        }
+
+        .contact h2 { color: var(--black); font-size: 2.5rem; margin-bottom: 20px; }
+        .contact p { font-size: 1.8rem; font-weight: 700; margin-bottom: 35px; }
+
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-content">
+            <div class="logo">Habbuş Alpha Systems</div>
+            <div class="contact-top">اتصل بنا: 501 664 00 20</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>سيطر على عملائك باستخدام تقنية "هندسة تتبع الظل"™</h1>
+            <p>المواقع العادية تفقد الزوار. نحن نبني شبكة رقمية تتعقب كل زائر وتحوله إلى عميل دائم من خلال بيانات دقيقة وسرعة فائقة.</p>
+            <a href="https://wa.me/905016640020" class="cta-button">ابدأ نظامك الآن</a>
+        </div>
+    </section>
+
+    <section class="mechanism">
+        <div class="container">
+            <div class="grid">
+                <div class="card">
+                    <h3>تتبع الظل (Shadow-Track)</h3>
+                    <p>نحول الزوار المجهولين إلى بيانات ملموسة في رادارك الإعلاني باستخدام أحدث خوارزميات التتبع.</p>
+                </div>
+                <div class="card">
+                    <h3>النشر السريع</h3>
+                    <p>نطلق نظامك خلال 24 ساعة فقط. سرعة "الإيدج" العالمية تجعل موقعك الأسرع في السوق.</p>
+                </div>
+                <div class="card">
+                    <h3>خدمة كاملة (DFY)</h3>
+                    <p>نحن نتولى كل شيء: التصميم، البرمجة، المحتوى، والربط مع أنظمة الدفع. أنت فقط استلم النتائج.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-box">
+                <h2>ضمان "الشبح" لمدة 30 يوماً</h2>
+                <p>إذا لم ينتج نظامنا أي عملاء محتملين لعملك خلال 30 يوماً، فسنعيد لك أموالك بالكامل فوراً. النظام سيبقى ملكك مجاناً.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>هل أنت مستعد للهيمنة الرقمية؟</h2>
+            <p>للتواصل: 501 664 00 20</p>
+            <a href="https://wa.me/905016640020" class="cta-button" style="border: 2px solid #000;">تحدث معنا عبر واتساب</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            &copy; 2026 Habbuş Alpha Systems. جميع الحقوق محفوظة لدى حسن حبوش.
+        </div>
+    </footer>
+
+</body>
+</html>
